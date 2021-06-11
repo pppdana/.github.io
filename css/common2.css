@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Erica+One&family=Monofett&display=swap');
+    *{
+      box-sizing:border-box;
+      margin:0;
+      padding:0;
+    }
+    .clear{
+      clear: both;
+    }
+    ul{
+      list-style-type:none;
+    }
+    body{
+      font-family: "맑은고딕","돋움";
+      font-size:100%;
+    }
+
+    .c1{width:8.33%;float:left;padding:5px;}
+    .c2{width:16.66%;float:left;padding:5px;}
+    .c3{width:25%;float:left;padding:5px;}
+    .c4{width:33.33%;float:left;padding:5px;}
+    .c5{width:41.66%;float:left;padding:5px;}
+    .c6{width:50%;float:left;padding:5px;}
+    .c7{width:58.33%;float:left;padding:5px;}
+    .c8{width:66.66%;float:left;padding:5px;}
+    .c9{width:75%;float:left;padding:5px;}
+    .c10{width:83.33%;float:left;padding:5px;}
+    .c11{width:91.66%;float:left;padding:5px;}
+    .c12{width:100%;float:left;padding:5px;}
+
+
+    section#main{
+      padding: 15px;
+
+    }
+
+    section#main p{
+      margin-top:30px;
+      padding:auto;
+      font-size:1.2em;
+      color:#005aff;
+      text-align:center;
+    }
+    p{
+      font-size:1.0em;
+      text-align:center;
+      color:#005aff;
+      font-family: 'Monofett';
+    }
+    h4{
+      font-family: 'Erica One';
+      font-size:8.5em;
+      padding:15px;
+      margin-top:40px;
+      text-align:center;
+      color:#005aff;
+    }
+    h5{
+      font-size:0.8em;
+      margin-top:30px;
+      text-align:center;
+      color:#ffffff;
+    }
+    h3{
+      font-size:0.9em;
+      margin-top:3px;
+      text-align:center;
+      color:#ffffff;
+    }
+
+    h1{
+      font-size:0.9em;
+      text-align:center;
+      color:#ffffff;
+      margin-top:13px;
+
+    }
+    #text{
+      font-size:5em;
+      font-family: 'Black Han Sans', sans-serif;
+      color:#005aff;
+    }
+    body{
+      background-color:#ffffff;
+    }
+    #main{
+      text-align:center;
+    }
+    footer{
+      height:100%;
+      padding:10px;
+      margin-top:10px;
+      text-align:center;
+      background-color:#005aff;
+    }
+    footer p{
+      padding:30px;
+      margin-top:50px;
+      text-align:center;
+      color:#ffffff;
+    }
+
+    #main_menu{
+      font-size: 20px;
+      color:#ffffff;
+      background-color:#005aff;
+      margin-top:15px;
+      padding: 16px;
+      text-align: center;
+      font-family: 'Black Han Sans', sans-serif;
+    }
+    #main_menu li{
+      padding: 0 20px 30px 50px;
+      display: inline;
+    }
+    a:link{color:#ffffff; text-decoration: none;}
+    a:visited{color:#ffffff; text-decoration: none;}
+    a:hover{color:#002f85; text-decoration: none;}
+
+    #logo{
+      padding: 5px 0 0 30px;
+      float: center;
+      text-align: center;
+    }
+
+    header {
+      height:128px;
+    }
+    header #top {
+      width:990px;
+      margin:0 auto;
+    }
+    ul{
+        list-style:none;
+    }
+    .wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .container{
+        width:800px;
+        height:640px;
+        position:relative;
+        background-color:white;
+        overflow: hidden;
+    }
+    .slider{
+        display: flex;
+        position:absolute;
+        top:0;
+        left:0;
+    }
+    .item{
+        width:900px;
+        height:700px;
+        font-size: 16px;
+        color:#005aff;
+
+
+  ;
+    }
+    .item:nth-child(2){
+        background-color:white;color:#005aff;
+    }
+    .item:nth-child(3){
+      background-color:white;color:#005aff;
+    }
+    .btn{
+        font-size: 80px;
+        color:#005aff;
+    }
+    .prev{
+        position:absolute;
+        top:660px;
+        left:350px;
+    }
+    .next{
+        position:absolute;
+        top:660px;
+        right:160px;
+
+    }
+    .container ul{
+        -webkit-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+        -o-transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+        transition: all 0.25s cubic-bezier(1, .01, .32, 1);
+    }
